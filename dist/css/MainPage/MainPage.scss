@@ -1,0 +1,19 @@
+@import "../Variables/Variables.scss"; // Import variables
+
+.mainPage {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    h1 {
+        color: $redColor; // Apply red color defined in variables
+    }
+    
+    button{
+        @include buttonStyle();
+    }
+}
+
+   
+
+

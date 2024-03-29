@@ -1,0 +1,16 @@
+.mainPage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mainPage h1 {
+  color: rgb(172, 2, 2);
+}
+.mainPage button {
+  width: 200px;
+  height: 40px;
+  background-color: rgb(172, 2, 2);
+  border-radius: 8px;
+  border: none;
+  color: rgb(232, 232, 232);
+}/*# sourceMappingURL=MainPage.css.map */
